@@ -4,19 +4,46 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* -------main-------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -----------Nav styles-------------- */
 .nav-cont {
     display: flex;
     justify-content: space-around;
 }
 
-/* -----------display styles-------------- */
-.container {
+.influ a {
+    text-decoration: none;
     color: black;
 }
 
-.cont-design {
+.nav-ot a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
 
+
+
+/* -----------display styles-------------- */
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 21px;
+
+}
+
+.cont-design {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -30,6 +57,7 @@ body {
 }
 
 .text-title button {
+
     border: none;
     color: white;
     border-radius: 41px;
@@ -54,4 +82,9 @@ body {
 
 .com-logo img {
     margin: 10px;
+}
+
+hr {
+    color: rgb(218, 218, 218);
+
 }
